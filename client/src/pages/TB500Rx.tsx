@@ -261,7 +261,7 @@ export default function TB500Rx() {
             <span style={{ ...s.label }}>TB-500<span style={{ color: DARK_ORANGE }}>Rx</span></span>
           </div>
           <h1 style={{ ...s.h1, maxWidth: 760, marginBottom: 24 }}>
-            Your body already knows<br />how to heal. TB-500 restores<br />the signal that makes it happen.
+            Heal faster.<br />TB-500 rebuilds what<br />injury couldn't fix.
           </h1>
           <p style={{ ...s.bodyLt, maxWidth: 480, marginBottom: 16, fontSize: "1.0625rem" }}>
             TB-500 is a synthetic fragment of Thymosin Beta-4 — the peptide that mobilizes stem cells, restores blood supply, and rebuilds damaged tissue in muscle, tendon, heart, and brain. Now available as a physician-supervised protocol.
@@ -654,7 +654,7 @@ export default function TB500Rx() {
         <div style={{ maxWidth: 700, margin: "0 auto", padding: "0 clamp(1.25rem,5vw,2.5rem)" }}>
           <p style={{ ...s.label, marginBottom: 20 }}>Start Today</p>
           <h2 style={{ fontFamily: DM, fontWeight: 300, fontSize: "clamp(1.75rem, 4.5vw, 3.5rem)", lineHeight: 1.1, letterSpacing: "-0.03em", color: "#F5F0E8", marginBottom: 24 }}>
-            Your body already knows<br />how to heal. It just needs<br />the right signal.
+            Heal faster.<br />Recover completely.<br />No surgery required.
           </h2>
           <p style={{ ...s.bodyLt, marginBottom: 48, fontSize: "1.0625rem" }}>
             TB-500 is the only tissue repair peptide with peer-reviewed evidence across muscle, tendon, cardiac, and neural tissue — mobilizing stem cells, restoring vascular supply, and rebuilding what injury has broken. Now available as a physician-supervised protocol with no surgery and no extended downtime.

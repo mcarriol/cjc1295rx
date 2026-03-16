@@ -325,3 +325,33 @@
     background: rgba(61,61,61,0.05);
   }
 }
+
+/* ─────────────────────────────────────────
+   RESPONSIVE — Mobile & Tablet breakpoints
+   ───────────────────────────────────────── */
+
+/* Tablet: ≤ 1024px */
+@media (max-width: 1024px) {
+  .four-col-grid       { grid-template-columns: repeat(2, 1fr) !important; }
+  .footer-grid         { grid-template-columns: 1fr 1fr !important; }
+  .two-col-mech        { grid-template-columns: 1fr !important; gap: 48px !important; }
+  .two-col-pricing     { grid-template-columns: 1fr !important; gap: 48px !important; }
+  .faq-grid            { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .faq-grid > div:first-child { position: static !important; }
+  .two-col-header      { grid-template-columns: 1fr !important; gap: 16px !important; }
+  .stats-strip         { grid-template-columns: repeat(2, 1fr) !important; }
+  .pathway-grid        { grid-template-columns: repeat(2, 1fr) !important; }
+  .comparison-table-wrap { overflow-x: auto !important; }
+}
+
+/* Mobile: ≤ 640px */
+@media (max-width: 640px) {
+  .four-col-grid       { grid-template-columns: 1fr !important; }
+  .problem-grid        { grid-template-columns: 1fr !important; }
+  .pathway-grid        { grid-template-columns: 1fr !important; }
+  .stats-strip         { grid-template-columns: repeat(2, 1fr) !important; }
+  .footer-grid         { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .btn-gold,
+  .btn-ghost-cream     { width: 100%; justify-content: center; }
+  nav                  { padding: 16px 20px !important; }
+}
