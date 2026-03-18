@@ -4,13 +4,13 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import TB500Rx from "./pages/TB500Rx";
+import CJC1295Rx from "./pages/CJC1295Rx";
 import Peptides from "./pages/Peptides";
 
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={TB500Rx} />
+      <Route path={"/"} component={CJC1295Rx} />
       <Route path={"/peptides"} component={Peptides} />
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />

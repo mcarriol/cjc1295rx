@@ -169,7 +169,7 @@ export default function Peptides() {
 
   return (
     <div style={{ background: "#0D0D0D", minHeight: "100vh" }}>
-      <Navbar productName="TB-500Rx" />
+      <Navbar productName="CJC-1295Rx" />
 
       {/* ══ HERO ══ */}
       <section style={{
@@ -199,7 +199,7 @@ export default function Peptides() {
                   Browse Protocols
                 </a>
                 <a href="/" className="btn-ghost-cream" style={{ padding: "14px 32px", fontSize: "0.9375rem" }}>
-                  Back to TB-500Rx
+                  Back to CJC-1295Rx
                 </a>
               </div>
             </div>
@@ -392,7 +392,7 @@ export default function Peptides() {
               Check Eligibility
             </a>
             <a href="/" className="btn-ghost-cream" style={{ padding: "14px 36px", fontSize: "0.9375rem" }}>
-              Back to TB-500Rx
+              Back to CJC-1295Rx
             </a>
           </div>
         </div>
