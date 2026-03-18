@@ -18,10 +18,10 @@ const GOLD = "#C9A96E";
 const DM = "'DM Sans', system-ui, sans-serif";
 
 const IMGS = {
-  hero:  "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=1800&q=80",  // athletic male physique / peak performance
-  cells: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=1800&q=80",  // gym training / weights
-  labs:  "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=1200&q=80",  // physician portrait
-  heal:  "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80",  // sleep / recovery (GH secreted during sleep)
+  hero:  "https://images.unsplash.com/photo-1549476464-37392f717541?w=1800&q=80",  // peak athletic physique / body composition
+  cells: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=1800&q=80",  // performance training
+  labs:  "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1200&q=80",  // sports medicine physician
+  heal:  "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80",  // deep sleep / nocturnal GH secretion
 };
 
 const s = {
